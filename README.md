@@ -1,1 +1,112 @@
-# gweccc-2025-promotion
+# GWECCC 2025 Event Promotion Website
+
+This project is a responsive, single-page event promotion website built for the **GWECCC 2025** event. The website features essential sections like a banner, event details, schedule, and a registration form, making it both informative and user-friendly.
+
+## Features
+
+- **Responsive Design**: Fully mobile-friendly, ensuring optimal user experience on all devices.
+- **Interactive Animations**: Smooth transitions and animations using `framer-motion`.
+- **Event Schedule**: Clearly displays dates, key topics, and speakers.
+- **Registration Form**: Simple form for users to register for the event.
+- **Modern UI**: Built with `React.js` and styled using `Tailwind CSS`.
+
+## Tech Stack
+
+- **Frontend**: React.js (TypeScript)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.tsx
+│   ├── Banner.tsx
+│   ├── AboutEvent.tsx
+│   ├── EventSchedule.tsx
+│   └── RegistrationForm.tsx
+├── styles/
+│   └── animations.css
+├── App.tsx
+├── index.tsx
+└── index.css
+```
+
+## Installation & Setup
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/gweccc-2025-promotion.git
+   cd gweccc-2025-promotion
+   ```
+
+2. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the Development Server**:
+
+   ```bash
+   npm start
+   ```
+
+4. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+
+## Tailwind CSS Setup
+
+Tailwind CSS is pre-configured in the project. If needed, refer to the [Tailwind CSS Installation Guide](https://tailwindcss.com/docs/installation).
+
+### Configuration
+
+- `tailwind.config.js`:
+  ```js
+  module.exports = {
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+    theme: {
+      extend: {},
+    },
+    plugins: [require("@tailwindcss/forms")],
+  };
+  ```
+
+## Deployment
+
+The website can be deployed on platforms like GitHub Pages or Netlify.
+
+### Deployment Steps (Netlify):
+
+1. Log in to [Netlify](https://www.netlify.com/).
+2. Connect your GitHub repository.
+3. Select the project and deploy.
+
+## Live Demo
+
+[Live Link](#) (Replace with the actual link once deployed.)
+
+## Design Choices
+
+The website is designed to:
+
+- Be visually engaging with a professional and clean layout.
+- Prioritize quick loading and responsiveness for better user experience.
+- Include animations to enhance interactivity without overwhelming the user.
+
+## Challenges
+
+- Ensuring cross-browser compatibility across Chrome, Firefox, Safari, and Edge.
+- Optimizing animations and responsiveness for all device sizes.
+
+## Contribution
+
+Feel free to fork this repository, submit issues, or make pull requests to contribute to the project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
