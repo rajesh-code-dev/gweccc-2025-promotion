@@ -2,15 +2,11 @@ import { gweccclogo, nexuslogo } from "../assets/images/index";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-gray-900 text-white py-6">
       <div className="flex md:flex-row flex-col gap-4 justify-between md:items-center">
         <div className="flex items-center space-x-8">
           <img src={nexuslogo} alt="Event Logo" className="h-10" />
-          <img
-            src={gweccclogo}
-            alt="Partner Logo"
-            className="h-10 mix-blend-multiply"
-          />
+          <img src={gweccclogo} alt="Partner Logo" className="h-10" />
         </div>
         <div className="text-sm">© 2024 GWECCC. All rights reserved.</div>
         <nav className="flex space-x-4">

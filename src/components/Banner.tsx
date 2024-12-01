@@ -18,7 +18,7 @@ function Banner() {
         GWECCC 2025
       </motion.h1>
       <motion.p
-        className="mt-2 text-xl"
+        className="mt-2 text-xl "
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}

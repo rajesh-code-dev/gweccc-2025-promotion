@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-cyan-950">
       <MaxWidthWrapper className="relative">
         <Header />
       </MaxWidthWrapper>

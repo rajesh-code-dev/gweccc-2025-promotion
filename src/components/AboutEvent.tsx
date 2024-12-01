@@ -10,7 +10,7 @@ const AboutEvent = () => {
       transition={{ type: "spring", stiffness: 50 }}
     >
       <h2 className="text-2xl font-bold mb-4">About the Event</h2>
-      <p className="text-gray-700">
+      <p className="text-gray-300">
         GWECCC 2025 is the premier global conference on emerging technologies,
         bringing together industry leaders, visionaries, and innovators to
         discuss the latest trends and insights.
