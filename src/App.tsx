@@ -7,7 +7,7 @@ import RegistrationForm from "./components/RegistrationForm";
 
 const App = () => {
   return (
-    <div className="font-sans bg-gray-100">
+    <div className="font-sans bg-slate-600 ">
       <Header />
       <Banner />
       <AboutEvent />
