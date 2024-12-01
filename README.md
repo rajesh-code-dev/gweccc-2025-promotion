@@ -17,16 +17,24 @@ This project is a responsive, single-page event promotion website built for the 
 // - animations.css
 
 // Dependencies to install:
-// npm install react-router-dom @tailwindcss/forms framer-motion
+
+# npm install react-router-dom @tailwindcss/forms
+
+# use yarn to install framer-motion in my case npm is not working.
 
 // Tailwind Setup: Make sure Tailwind CSS is installed and configured.
 // Refer to https://tailwindcss.com/docs/installation for setup instructions.
 
-// TypeScript Setup:
-// 1. Install TypeScript and React type definitions:
-// npm install typescript @types/react @types/react-dom
+# TypeScript Setup:
+
+# 1. Install TypeScript and React type definitions:
+
+# npm install typescript @types/react @types/react-dom
+
 // 2. Generate tsconfig.json:
-// npx tsc --init
+
+# npx tsc --init
+
 // 3. Configure tsconfig.json with key options like:
 // {
 // "compilerOptions": {
