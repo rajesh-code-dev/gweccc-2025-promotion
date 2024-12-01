@@ -4,20 +4,6 @@ This project is a responsive, single-page event promotion website built for the 
 
 / Start of the project setup for the GWECCC 2025 Event Promotion Website
 
-// Project Structure:
-// 1. src/components
-// - Header.tsx
-// - Banner.tsx
-// - AboutEvent.tsx
-// - EventSchedule.tsx
-// - RegistrationForm.tsx
-// - Footer.tsx
-// - MaxWidthWrapper.tsx
-// 2. src/App.tsx
-// 3. src/index.tsx
-// 4. src/styles
-// - animations.css
-
 // Dependencies to install:
 
 # npm install react-router-dom @tailwindcss/forms
@@ -69,15 +55,19 @@ This project is a responsive, single-page event promotion website built for the 
 src/
 ├── components/
 │   ├── Header.tsx
+|   ├── Video.tsx
 │   ├── Banner.tsx
 │   ├── AboutEvent.tsx
 │   ├── EventSchedule.tsx
-│   └── RegistrationForm.tsx
-├── styles/
-│   └── animations.css
+│   ├── RegistrationForm.tsx
+|   ├── MaxWidthWrapper.tsx
+|   └── Footer.tsx
 ├── App.tsx
 ├── index.tsx
-└── index.css
+├── index.css
+├── tailwind.config.js // define contents and theme which can we use in react app like fontFamily and colors and more.
+├── images.d.ts  // This basically defines images and video as string type
+└──
 ```
 
 ## Installation & Setup
@@ -127,9 +117,9 @@ Tailwind CSS is pre-configured in the project. If needed, refer to the [Tailwind
 
 The website can be deployed on platforms like GitHub Pages or Netlify.
 
-### Deployment Steps (Netlify):
+### Deployment Steps (Vercel):
 
-1. Log in to [Netlify](https://www.netlify.com/).
+1. Log in to [Vercel](https://www.vercel.com/).
 2. Connect your GitHub repository.
 3. Select the project and deploy.
 
@@ -153,7 +143,3 @@ The website is designed to:
 ## Contribution
 
 Feel free to fork this repository, submit issues, or make pull requests to contribute to the project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
