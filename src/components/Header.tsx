@@ -3,7 +3,7 @@ import { gweccclogo, nexuslogo } from "../assets/images/index";
 
 function Header() {
   return (
-    <header className="flex justify-between items-center px-6 py-4">
+    <header className="flex justify-between max-w-screen-xl mx-auto items-center px-6 py-4">
       <div className="flex items-center space-x-8">
         <img src={nexuslogo} alt="Event Logo" className="h-10" />
         <img
