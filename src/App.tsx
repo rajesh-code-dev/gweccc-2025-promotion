@@ -6,18 +6,23 @@ import EventSchedule from "./components/EventSchedule";
 import RegistrationForm from "./components/RegistrationForm";
 import MaxWidthWrapper from "./components/MaxWidthWrapper";
 import Video from "./components/Video";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="font-sans">
-      <MaxWidthWrapper>
+      <MaxWidthWrapper className="relative">
         <Header />
-        <Video />
+      </MaxWidthWrapper>
+      <Video />
+      <MaxWidthWrapper>
         <Banner />
         <AboutEvent />
         <EventSchedule />
         <RegistrationForm />
       </MaxWidthWrapper>
+
+      <Footer />
     </div>
   );
 };
