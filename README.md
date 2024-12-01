@@ -11,6 +11,8 @@ This project is a responsive, single-page event promotion website built for the 
 // - AboutEvent.tsx
 // - EventSchedule.tsx
 // - RegistrationForm.tsx
+// - Footer.tsx
+// - MaxWidthWrapper.tsx
 // 2. src/App.tsx
 // 3. src/index.tsx
 // 4. src/styles
