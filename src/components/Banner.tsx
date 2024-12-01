@@ -9,8 +9,22 @@ function Banner() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-4xl font-bold">GWECCC 2025</h1>
-      <p className="mt-2 text-xl">March 15-17, 2025 | New York City</p>
+      <motion.h1
+        className="text-[2rem] md:text-[6rem] font-bold"
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+      >
+        GWECCC 2025
+      </motion.h1>
+      <motion.p
+        className="mt-2 text-xl"
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+      >
+        March 15-17, 2025 | New York City
+      </motion.p>
     </motion.section>
   );
 }
