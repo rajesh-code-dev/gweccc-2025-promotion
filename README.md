@@ -83,7 +83,7 @@ src/
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/gweccc-2025-promotion.git
+   git clone https://github.com/rajesh-code-dev/gweccc-2025-promotion.git
    cd gweccc-2025-promotion
    ```
 
