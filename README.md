@@ -119,13 +119,13 @@ The website can be deployed on platforms like GitHub Pages or Netlify.
 
 ### Deployment Steps (Vercel):
 
-1. Log in to [Vercel](https://www.vercel.com/).
+1. Log in to [Vercel](https://www.vercel.com/) using GitHub account.
 2. Connect your GitHub repository.
 3. Select the project and deploy.
 
 ## Live Demo
 
-[Live Link](#) (Replace with the actual link once deployed.)
+[Live Link](#) https://gweccc-2025-promotion.vercel.app/
 
 ## Design Choices
 
