@@ -2,6 +2,43 @@
 
 This project is a responsive, single-page event promotion website built for the **GWECCC 2025** event. The website features essential sections like a banner, event details, schedule, and a registration form, making it both informative and user-friendly.
 
+/ Start of the project setup for the GWECCC 2025 Event Promotion Website
+
+// Project Structure:
+// 1. src/components
+// - Header.tsx
+// - Banner.tsx
+// - AboutEvent.tsx
+// - EventSchedule.tsx
+// - RegistrationForm.tsx
+// 2. src/App.tsx
+// 3. src/index.tsx
+// 4. src/styles
+// - animations.css
+
+// Dependencies to install:
+// npm install react-router-dom @tailwindcss/forms framer-motion
+
+// Tailwind Setup: Make sure Tailwind CSS is installed and configured.
+// Refer to https://tailwindcss.com/docs/installation for setup instructions.
+
+// TypeScript Setup:
+// 1. Install TypeScript and React type definitions:
+// npm install typescript @types/react @types/react-dom
+// 2. Generate tsconfig.json:
+// npx tsc --init
+// 3. Configure tsconfig.json with key options like:
+// {
+// "compilerOptions": {
+// "jsx": "react-jsx",
+// "strict": true,
+// "module": "ESNext",
+// "target": "ES6",
+// "moduleResolution": "Node",
+// "allowSyntheticDefaultImports": true
+// }
+// }
+
 ## Features
 
 - **Responsive Design**: Fully mobile-friendly, ensuring optimal user experience on all devices.
