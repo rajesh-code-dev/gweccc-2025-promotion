@@ -2,11 +2,11 @@ import { ReactNode } from "react";
 import { cn } from "../utils/twMerge";
 
 type MaxWidthPropsType = {
+  className?: string;
   children: ReactNode;
-  className: string;
 };
 
-const MaxWidthWrapper = ({ children, className }: MaxWidthPropsType) => {
+const MaxWidthWrapper = ({ className, children }: MaxWidthPropsType) => {
   return <div className={cn("container mx-auto", className)}>{children}</div>;
 };
 
